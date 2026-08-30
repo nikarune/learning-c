@@ -1,3 +1,5 @@
+// Simple user input tutorial.
+
 #define _CRT_SECURE_NO_WARNINGS // This line just makes it so that scanf isn't deprecated.
 #include <stdio.h> // Standard input and output
 #include <string.h> // String utilities
@@ -10,7 +12,7 @@ int main() {
 
     // Prompt the user to input their age.
     printf("Enter your age!: ");
-    scanf("%d", &age);  /* 
+    scanf("%d", &age);          /*
                                 The address-of operator (&) is used to get the memory address of a variable.
                                 Basically, we use this to pass in the address of the variable as an argument,
                                 rather than the value that the variable holds! (big comment for important stuff)

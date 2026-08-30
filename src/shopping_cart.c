@@ -1,3 +1,5 @@
+// Shopping cart program! Performs simple calculations and user input.
+
 #define _CRT_SECURE_NO_WARNINGS // This line just makes it so that scanf isn't deprecated.
 #include <stdio.h>
 #include <stdbool.h> // Standard library for booleans
